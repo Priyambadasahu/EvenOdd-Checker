@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Even or Odd Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Even or Odd Checker</h1>
+      <input type="text" id="numberInput" placeholder="Enter a number" />
+      <button id="checkButton">Check</button>
+      <div id="result"></div>
+    </div>
+
+    <script>
+      document.getElementById("checkButton").onclick = function () {
+        var input = document.getElementById("numberInput").value;
+        var a = parseInt(input);
+
+        if (!isNaN(a)) {
+          if (a % 2 === 0) {
+            document.getElementById("result").innerHTML =
+              a + " is an <strong>even</strong> number.";
+          } else {
+            document.getElementById("result").innerHTML =
+              a + " is an <strong>odd</strong> number.";
+          }
+        } else {
+          document.getElementById("result").innerHTML =
+            "<span class='error'>Please enter a valid number.</span>";
+        }
+      };
+    </script>
+  </body>
+</html>
