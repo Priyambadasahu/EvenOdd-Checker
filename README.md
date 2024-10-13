@@ -24,4 +24,4 @@ Open the project folder:
 ## using gitbash
 cd EvenOdd-Checker
 
-#Open the index.html file in your browser to run the application.
+# Open the index.html file in your browser to run the application.
