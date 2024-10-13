@@ -15,13 +15,12 @@
  ## Installation
 To run this project locally, follow these steps:
 
-Clone the repository:
-
+### Clone the repository:
 ## using gitbash
 git clone https://github.com/Priyambadasahu/EvenOdd-Checker.git
-Open the project folder:
 
+### Open the project folder:
 ## using gitbash
 cd EvenOdd-Checker
 
-# Open the index.html file in your browser to run the application.
+### Open the index.html file in your browser to run the application.
