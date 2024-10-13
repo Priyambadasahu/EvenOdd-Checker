@@ -11,3 +11,17 @@
  HTML: For structuring the web page.
  CSS: For styling the application.
  JavaScript: For adding interactivity and logic to determine if the number is even or odd.
+
+ ## Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+## using gitbash
+git clone https://github.com/Priyambadasahu/EvenOdd-Checker.git
+Open the project folder:
+
+## using gitbash
+cd EvenOdd-Checker
+
+#Open the index.html file in your browser to run the application.
